@@ -26,7 +26,6 @@ public class Parser {
 
         protected String convertLessThanOneThousand(int number){
             String currentNumber;
-            String prefix = "";
 
             if (number == 0) {return "zero";}
 
